@@ -371,11 +371,10 @@ initializr:
               description: Producing a SOAP web service
             - rel: reference
               href: http://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-webservices
-        - name: custom 
-          id: custom.dependency:test
+        - name: custom ant
+          id: org.apache.ant:ant
           description: Custom artifact
-          scope: compile
-          version: 0.0.1
+          version: 1.10.5
           facets:
             - json
           versionRange: 1.2.0.RELEASE
